@@ -7,7 +7,7 @@
 package waSyncAction
 
 import (
-	waCommon "go.mau.fi/whatsmeow/binary/armadillo/waCommon"
+	waCommon "github.com/UristLikot/whatsmeow/binary/armadillo/waCommon"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

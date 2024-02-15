@@ -1,10 +1,10 @@
 package armadillo
 
 import (
-	"go.mau.fi/whatsmeow/binary/armadillo/waArmadilloApplication"
-	"go.mau.fi/whatsmeow/binary/armadillo/waCommon"
-	"go.mau.fi/whatsmeow/binary/armadillo/waConsumerApplication"
-	"go.mau.fi/whatsmeow/binary/armadillo/waMultiDevice"
+	"github.com/UristLikot/whatsmeow/binary/armadillo/waArmadilloApplication"
+	"github.com/UristLikot/whatsmeow/binary/armadillo/waCommon"
+	"github.com/UristLikot/whatsmeow/binary/armadillo/waConsumerApplication"
+	"github.com/UristLikot/whatsmeow/binary/armadillo/waMultiDevice"
 )
 
 type MessageApplicationSub interface {

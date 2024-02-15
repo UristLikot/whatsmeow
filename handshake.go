@@ -11,12 +11,12 @@ import (
 	"fmt"
 	"time"
 
-	"go.mau.fi/libsignal/ecc"
+	"github.com/UristLikot/libsignal/ecc"
 	"google.golang.org/protobuf/proto"
 
-	waProto "go.mau.fi/whatsmeow/binary/proto"
-	"go.mau.fi/whatsmeow/socket"
-	"go.mau.fi/whatsmeow/util/keys"
+	waProto "github.com/UristLikot/whatsmeow/binary/proto"
+	"github.com/UristLikot/whatsmeow/socket"
+	"github.com/UristLikot/whatsmeow/util/keys"
 )
 
 const NoiseHandshakeResponseTimeout = 20 * time.Second

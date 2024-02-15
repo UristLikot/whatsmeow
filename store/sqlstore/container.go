@@ -12,14 +12,14 @@ import (
 	"fmt"
 	mathRand "math/rand"
 
+	"github.com/UristLikot/util/random"
 	"github.com/google/uuid"
-	"go.mau.fi/util/random"
 
-	waProto "go.mau.fi/whatsmeow/binary/proto"
-	"go.mau.fi/whatsmeow/store"
-	"go.mau.fi/whatsmeow/types"
-	"go.mau.fi/whatsmeow/util/keys"
-	waLog "go.mau.fi/whatsmeow/util/log"
+	waProto "github.com/UristLikot/whatsmeow/binary/proto"
+	"github.com/UristLikot/whatsmeow/store"
+	"github.com/UristLikot/whatsmeow/types"
+	"github.com/UristLikot/whatsmeow/util/keys"
+	waLog "github.com/UristLikot/whatsmeow/util/log"
 )
 
 // Container is a wrapper for a SQL database that can contain multiple whatsmeow sessions.

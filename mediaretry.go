@@ -9,15 +9,15 @@ package whatsmeow
 import (
 	"fmt"
 
-	"go.mau.fi/util/random"
+	"github.com/UristLikot/util/random"
 	"google.golang.org/protobuf/proto"
 
-	waBinary "go.mau.fi/whatsmeow/binary"
-	waProto "go.mau.fi/whatsmeow/binary/proto"
-	"go.mau.fi/whatsmeow/types"
-	"go.mau.fi/whatsmeow/types/events"
-	"go.mau.fi/whatsmeow/util/gcmutil"
-	"go.mau.fi/whatsmeow/util/hkdfutil"
+	waBinary "github.com/UristLikot/whatsmeow/binary"
+	waProto "github.com/UristLikot/whatsmeow/binary/proto"
+	"github.com/UristLikot/whatsmeow/types"
+	"github.com/UristLikot/whatsmeow/types/events"
+	"github.com/UristLikot/whatsmeow/util/gcmutil"
+	"github.com/UristLikot/whatsmeow/util/hkdfutil"
 )
 
 func getMediaRetryKey(mediaKey []byte) (cipherKey []byte) {

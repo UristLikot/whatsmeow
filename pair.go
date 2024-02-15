@@ -14,14 +14,14 @@ import (
 	"fmt"
 	"strings"
 
-	"go.mau.fi/libsignal/ecc"
+	"github.com/UristLikot/libsignal/ecc"
 	"google.golang.org/protobuf/proto"
 
-	waBinary "go.mau.fi/whatsmeow/binary"
-	waProto "go.mau.fi/whatsmeow/binary/proto"
-	"go.mau.fi/whatsmeow/types"
-	"go.mau.fi/whatsmeow/types/events"
-	"go.mau.fi/whatsmeow/util/keys"
+	waBinary "github.com/UristLikot/whatsmeow/binary"
+	waProto "github.com/UristLikot/whatsmeow/binary/proto"
+	"github.com/UristLikot/whatsmeow/types"
+	"github.com/UristLikot/whatsmeow/types/events"
+	"github.com/UristLikot/whatsmeow/util/keys"
 )
 
 func (cli *Client) handleIQ(node *waBinary.Node) {

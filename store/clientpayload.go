@@ -15,9 +15,9 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	"go.mau.fi/libsignal/ecc"
+	"github.com/UristLikot/libsignal/ecc"
 
-	waProto "go.mau.fi/whatsmeow/binary/proto"
+	waProto "github.com/UristLikot/whatsmeow/binary/proto"
 )
 
 // WAVersionContainer is a container for a WhatsApp web version number.

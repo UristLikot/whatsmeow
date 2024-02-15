@@ -9,10 +9,10 @@ package whatsmeow
 import (
 	"context"
 
-	"go.mau.fi/libsignal/keys/prekey"
+	"github.com/UristLikot/libsignal/keys/prekey"
 
-	waBinary "go.mau.fi/whatsmeow/binary"
-	"go.mau.fi/whatsmeow/types"
+	waBinary "github.com/UristLikot/whatsmeow/binary"
+	"github.com/UristLikot/whatsmeow/types"
 )
 
 type DangerousInternalClient struct {

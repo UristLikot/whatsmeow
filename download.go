@@ -18,15 +18,15 @@ import (
 	"strings"
 	"time"
 
-	"go.mau.fi/util/retryafter"
+	"github.com/UristLikot/util/retryafter"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/reflect/protoreflect"
 
-	"go.mau.fi/whatsmeow/binary/armadillo/waMediaTransport"
-	waProto "go.mau.fi/whatsmeow/binary/proto"
-	"go.mau.fi/whatsmeow/socket"
-	"go.mau.fi/whatsmeow/util/cbcutil"
-	"go.mau.fi/whatsmeow/util/hkdfutil"
+	"github.com/UristLikot/whatsmeow/binary/armadillo/waMediaTransport"
+	waProto "github.com/UristLikot/whatsmeow/binary/proto"
+	"github.com/UristLikot/whatsmeow/socket"
+	"github.com/UristLikot/whatsmeow/util/cbcutil"
+	"github.com/UristLikot/whatsmeow/util/hkdfutil"
 )
 
 // MediaType represents a type of uploaded file on WhatsApp.

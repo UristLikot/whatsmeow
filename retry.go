@@ -14,20 +14,20 @@ import (
 	"fmt"
 	"time"
 
-	"go.mau.fi/libsignal/ecc"
-	"go.mau.fi/libsignal/groups"
-	"go.mau.fi/libsignal/keys/prekey"
-	"go.mau.fi/libsignal/protocol"
+	"github.com/UristLikot/libsignal/ecc"
+	"github.com/UristLikot/libsignal/groups"
+	"github.com/UristLikot/libsignal/keys/prekey"
+	"github.com/UristLikot/libsignal/protocol"
 	"google.golang.org/protobuf/proto"
 
-	waBinary "go.mau.fi/whatsmeow/binary"
-	"go.mau.fi/whatsmeow/binary/armadillo/waCommon"
-	"go.mau.fi/whatsmeow/binary/armadillo/waConsumerApplication"
-	"go.mau.fi/whatsmeow/binary/armadillo/waMsgApplication"
-	"go.mau.fi/whatsmeow/binary/armadillo/waMsgTransport"
-	waProto "go.mau.fi/whatsmeow/binary/proto"
-	"go.mau.fi/whatsmeow/types"
-	"go.mau.fi/whatsmeow/types/events"
+	waBinary "github.com/UristLikot/whatsmeow/binary"
+	"github.com/UristLikot/whatsmeow/binary/armadillo/waCommon"
+	"github.com/UristLikot/whatsmeow/binary/armadillo/waConsumerApplication"
+	"github.com/UristLikot/whatsmeow/binary/armadillo/waMsgApplication"
+	"github.com/UristLikot/whatsmeow/binary/armadillo/waMsgTransport"
+	waProto "github.com/UristLikot/whatsmeow/binary/proto"
+	"github.com/UristLikot/whatsmeow/types"
+	"github.com/UristLikot/whatsmeow/types/events"
 )
 
 // Number of sent messages to cache in memory for handling retry receipts.

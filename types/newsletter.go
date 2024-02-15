@@ -11,9 +11,9 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"go.mau.fi/util/jsontime"
+	"github.com/UristLikot/util/jsontime"
 
-	waProto "go.mau.fi/whatsmeow/binary/proto"
+	waProto "github.com/UristLikot/whatsmeow/binary/proto"
 )
 
 type NewsletterVerificationState string
